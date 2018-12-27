@@ -1,0 +1,333 @@
+/*常见问题页面*/
+.commonProblem .questionDiv {
+    line-height: 30px;
+    overflow: hidden;
+}
+
+.commonProblem .quesNum {
+    width: 10%;
+    float: left;
+    line-height: 30px;
+}
+
+.commonProblem .quesNum span {
+    font-size: 12px;
+    color: #FFF;
+    padding: 2px;
+    border-radius: 4px;
+    background: #005787;
+}
+
+.commonProblem .quesCon {
+    width: 90%;
+    float: left;
+    line-height: 30px;
+    font-size: 14px;
+    color: #333;
+}
+
+.commonProblem .answerDiv {
+    line-height: 30px;
+    overflow: hidden;
+}
+
+.commonProblem .ansNum {
+    width: 10%;
+    float: left;
+}
+
+.commonProblem .ansNum span {
+    font-size: 12px;
+    color: #FFF;
+    padding: 2px;
+    border-radius: 4px;
+    background: #999;
+}
+
+.commonProblem .ansCon {
+    width: 90%;
+    float: left;
+    line-height: 20px;
+    font-size: 14px;
+    color: #999;
+}
+
+/*联系我们页面*/
+.contactUs .contactPanel {
+    width: 100%;
+    display: table;
+    height: 70px;
+}
+
+.contactUs .contactPanelL,
+.contactUs .contactPanelR {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.contactUs .contactPanelL {
+    width: 80%;
+}
+
+.contactUs .contactPanelR {
+    width: 20%;
+    text-align: center;
+}
+
+.contactUs .contactPanelL .name {
+    line-height: 24px;
+    font-size: 14px;
+    color: #666;
+}
+
+.contactUs .contactPanelL .con {
+    line-height: 24px;
+    font-size: 18px;
+    color: #000;
+}
+
+.contactUs .contactPanelR img {
+    height: 30px;
+    border-radius: 50%;
+}
+
+/*我的中心页面*/
+.title2 {
+    height: 40px;
+    font-size: 18px;
+    position: relative;
+    pointer-events: none;
+}
+
+.mine .minePanel {
+    width: 100%;
+    height: 90px;
+    display: table;
+    background: #5180EA;
+    padding: 15px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.mine .minePanelL,
+.mine .minePanelR {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.mine .minePanelL {
+    width: 70%;
+    line-height: 24px;
+    color: #FFF;
+}
+
+.mine .minePanelL .name {
+    font-size: 14px;
+}
+
+.mine .minePanelL .num {
+    font-size: 12px;
+}
+
+.mine .minePanelR {
+    width: 30%;
+    text-align: center;
+}
+
+.mine .minePanelR img {
+    width: 70%;
+    border-radius: 50%;
+}
+
+.mine .mineCon {
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #333;
+    border-bottom: 1px solid #dedede;
+    padding: 0px 10px;
+}
+
+.mine .mineCon img {
+    height: 20px;
+    margin-right: 6px;
+    vertical-align: middle;
+}
+
+.mine .mineCon .rightIcon {
+    float: right;
+    margin-top: 10px;
+}
+
+.mine .btnDiv {
+    text-align: center;
+    padding-top: 150px;
+}
+
+.mine .btnDiv button {
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #095A92;
+    padding: 0px 20px;
+    border-radius: 15px;
+    background: #FFF;
+    border: 0px;
+}
+
+/*我的申请页面*/
+/*tab切换样式*/
+.tabClick {
+    background: #FFF;
+    /*overflow: hidden;*/
+    border-top: 1px solid #dedede;
+}
+
+.tabClick li {
+    height: 40px;
+    line-height: 40px;
+    width: 50%;
+    float: left;
+    text-align: center
+}
+
+.tabClick li:first-child span {
+    /* display: inline-block; */
+    height: 20px;
+    width: 1px;
+    float: right;
+    margin-top: 10px;
+    background: #dedede;
+}
+
+.tabClick li.active {
+    color: #669ED0;
+    transition: 0.1s;
+    font-weight: bold
+}
+
+.tabCon {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.tabBox {
+    position: relative
+}
+
+.tabList {
+    width: 100%;
+    float: left;
+}
+
+.lineBorder {
+    height: 2px;
+    overflow: hidden;
+    border-bottom: 1px solid #DEDEDE;
+    background: #FFF
+}
+
+.lineDiv {
+    background: #FFF;
+    height: 2px;
+    width: 50%;
+    padding-left: 17%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.lineDiv div {
+    background: #669ED0;
+    height: 2px;
+    width: 45%;
+}
+
+.myapply ul,
+.myapply li {
+    list-style: none
+}
+
+/*其他样式*/
+.myapply .applyName {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #dedede;
+    padding: 0px 15px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.myapply .applyName .name {
+    font-size: 16px;
+    color: #333;
+}
+
+.myapply .applyName .wait {
+    font-size: 12px;
+    color: #3C749E;
+    float: right;
+    vertical-align: middle;
+}
+
+.myapply .applyName .agree {
+    font-size: 12px;
+    color: #3CB53A;
+    float: right;
+    vertical-align: middle;
+}
+
+.myapply .applyName .refuse {
+    font-size: 12px;
+    color: #F85461;
+    float: right;
+    vertical-align: middle;
+}
+
+.myapply .applyCon {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.myapply .applyCon div {
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #858585;
+}
+
+
+/*我的提问页面*/
+.myQuestion .fromDiv {
+    line-height: 20px;
+    font-size: 12px;
+    color: #B4B4B4;
+}
+
+.myQuestion .quesDiv {
+    line-height: 24px;
+    font-size: 16px;
+    color: #333;
+}
+
+.myQuestion .ansDiv {
+    line-height: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+.myQuestion .ansDiv span {
+    color: #015690;
+}
+
+.myQuestion .ansWit {
+    line-height: 24px;
+    font-size: 14px;
+    color: #A1A1A1;
+}

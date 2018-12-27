@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style/base.css">
+    <link rel="stylesheet" href="https://www.swiper.com.cn/dist/css/swiper.min.css">
+    <title>我要提问-金佰利掌上HR</title>
+</head>
+
+<body>
+    <div class="container question">
+        <div class="flexCenter bgw  flex0 title" onclick="history.go(-1)">我要提问</div>
+        <div class="flexCol flex1 p15 bgw mt1 oyScroll">
+            <div class="flexRow p10-0 col1 ">
+                <input type="text" placeholder="请输入问题标题">
+            </div>
+            <div class="flex1 mt20 oHidden col2" contenteditable="true">请输入内容</div>
+        </div>
+        <div class="flexRow p15 jcsb aic col3">
+            <div class="flexRow aic">
+                <div class="flexCenter relative oHidden">
+                    <img src="./images/addImg.png" alt="">
+                    <input type="file" class="absolute">
+                </div>
+
+                <img src="./images/addTag.png" alt="">
+            </div>
+            <div class="flexCenter btn">提交</div>
+        </div>
+        <div class="flexRow fixed oHidden tags">
+            <div class="flexCol  p15 bgw">
+                <h3>选择标签</h3>
+                <div class=" flexWarp jcsb aic p15 oyScroll">
+                    <span class="flexCenter ">薪资问题</span>
+                    <span class="flexCenter ">请假</span>
+                    <span class="flexCenter  ">福利制度</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script>
+        $(function () {
+      
+            var ta = $(".col2").on({
+                    "focus": function () {
+                        if (ta.text() == t) ta.text('');
+                    },
+                    "blur": function () {
+                        ta.text() || ta.text(t);
+                    }
+                }),
+                t = ta.text();
+            $(".col3 >div>img").one('click', function () {
+            
+                var fn = function(){
+                    tags.toggleClass("show");
+                };
+                var tags = $(".tags").click( fn);
+                $(this).click(fn);
+                fn();
+            })
+        })
+    </script>
+</body>
+
+</html>
